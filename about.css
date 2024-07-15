@@ -77,3 +77,98 @@ main {
     color: #333;
     margin-bottom: 1rem;
 }
+
+#result {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.count-box {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 0.5rem;
+}
+
+.count-box i {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 0.5rem;
+}
+
+.count-box span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.count-box p {
+    color: #666;
+}
+
+footer {
+    background-color: transparent;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    margin-top: auto;
+}
+
+.social-icons {
+    margin-top: 0.5rem;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+.about-container {
+    max-width: 800px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-text ul li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
