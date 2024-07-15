@@ -172,3 +172,91 @@ footer {
     position: relative;
     padding-left: 1.5rem;
 }
+
+.about-text ul li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: #3498db;
+}
+
+
+@media (max-width: 992px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .count-box {
+        flex: 1 1 100%;
+        margin: 0.5rem 0;
+    }
+
+    .social-icons a {
+        margin: 0.5rem;
+    }
+
+    .about-text {
+        min-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+    nav ul {
+        align-items: center;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .about-image {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .about-content {
+        gap: 1rem;
+    }
+
+    .count-box i {
+        font-size: 1.5rem;
+    }
+
+    .count-box span {
+        font-size: 1.2rem;
+    }
+
+    .social-icons a {
+        font-size: 1rem;
+    }
+}
