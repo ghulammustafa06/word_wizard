@@ -1,6 +1,13 @@
+[![Try Out](https://github.com/ghulammustafa06/hotel_reservation_websites/blob/main/Assets/Images/repo-img.png)](https://ghulammustafa06.github.io/word_wizard/)
+
+
 # WordWizard - Smart Word Counter
 
-WordWizard is a smart and intuitive word counting tool designed to help writers, students, and professionals keep track of their word and character counts effortlessly. It is also provide a user-friendly, efficient, and accurate word counting solution that enhances your writing experience.
+WordWizard is a smart and intuitive word-counting tool designed to help writers, students, and professionals keep track of their word and character counts effortlessly. It is also provide a user-friendly, efficient, and accurate word-counting solution that enhances your writing experience.
+
+
+![image](https://github.com/user-attachments/assets/0099b1f8-3d98-4280-b5ca-ae336e63224b)
+
 
 ## Features
 
